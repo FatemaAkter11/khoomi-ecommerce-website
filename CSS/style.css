@@ -1,8 +1,10 @@
+/* common css */
 body{
     font-family: 'Poppins', sans-serif;
     padding: 0px;
     margin: 0px;
 }
+/* 1st navbar part */
 .btn.btn-search{
     border-radius: 0;
     height: 50px;
@@ -21,7 +23,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
-
+/* banner part */
 .top-banner{
     background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
@@ -33,7 +35,6 @@ body{
  .container{
      overflow: hidden;
  }
-
  .order-btn{
     border: 2px solid orchid;
     background-color: burlywood;
@@ -44,4 +45,13 @@ body{
 .order-btn:hover{
    background-color:black;
    color: #fff;
+}
+
+/* explore products */
+.explore{
+    height: 100px;
+}
+.price-btn{
+    color: tomato;
+    border-radius: 20px;
 }
